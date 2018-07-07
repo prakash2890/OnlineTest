@@ -16,7 +16,7 @@ namespace OnlineTest
         {
             if (Request.QueryString["timeout"] != null)
             {
-                lbstatus.Text = "You test time expired, please try again!";
+                lbstatus.Text = "You test time expired, please try again! ";
             }
           
         }
